@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
+.player{
+    background:white;
+    padding:30px;
+    width:380px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+    color:#0077cc;
+    margin-bottom:20px;
+}
+
+.song-info{
+    margin-bottom:20px;
+}
+
+.song-info h2{
+    color:#333;
+    margin-bottom:5px;
+}
+
+.song-info p{
+    color:gray;
+}
+
+audio{
+    width:100%;
+    margin-bottom:20px;
+}
+
+.controls button{
+    background:#0077cc;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    margin:8px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.controls button:hover{
+    background:#005fa3;
+    transform:scale(1.05);
+}
+
+.volume{
+    margin-top:20px;
+}
+
+.volume input{
+    width:100%;
+    margin-top:10px;
+}
